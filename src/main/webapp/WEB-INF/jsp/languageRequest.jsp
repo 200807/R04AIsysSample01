@@ -6,6 +6,15 @@
 <meta charset="UTF-8">
 <title>CognitiveServiceを使うサイト</title>
 </head>
+<ul class="nav nav-pills nav-fill bg-light">
+    <li class="nav-item">
+         <a class="nav-link" href="./languageRequest">Language(入力)</a>
+    </li>
+            
+    <li class="nav-item">
+        <a class="nav-link" href="./sentimentRequest">Sentiment(入力)</a>
+    </li>
+</ul>
 
 <body>
 <h1>CognitiveServiceを使うサイト</h1>

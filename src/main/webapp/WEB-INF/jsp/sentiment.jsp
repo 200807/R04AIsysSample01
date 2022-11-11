@@ -7,6 +7,15 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
+<ul class="nav nav-pills nav-fill bg-light">
+    <li class="nav-item">
+         <a class="nav-link" href="./languageRequest">Language(入力)</a>
+    </li>
+            
+    <li class="nav-item">
+        <a class="nav-link" href="./sentimentRequest">Sentiment(入力)</a>
+    </li>
+</ul>
 <%
 
 Optional<String> string = 

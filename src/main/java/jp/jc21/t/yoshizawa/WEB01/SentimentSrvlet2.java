@@ -41,7 +41,7 @@ public class SentimentSrvlet2 extends HttpServlet {
 			request.setAttribute("negative", negative);
 			request.setAttribute("neutral", neutral);
 			request.setAttribute("positive", positive);
-			request.getRequestDispatcher("/WEB-INF/sentiment.jsp").forward(request, response);
+			request.getRequestDispatcher("/WEB-INF/jsp/sentiment.jsp").forward(request, response);
 		} catch (URISyntaxException e) {
 			e.printStackTrace();
 		} catch (InterruptedException e) {
